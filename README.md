@@ -35,3 +35,65 @@ Unlike traditional "black box" models, NeuralBlitz is architected from the groun
 We welcome contributions! Please see our `CONTRIBUTING.md` for guidelines on how to get involved.
 
 ---
+NeuralBlitz/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── workflows/
+│       └── main.yml         # CI/CD Pipeline
+│
+├── core_engine/             # The heart of the system
+│   ├── une/                 # Universal Neural Engine - "The Director of Focus"
+│   │   └── une_core.py
+│   ├── drs_engine/          # Dynamic Representational Substrate - The Memory Manifold
+│   │   └── drs_manager.py
+│   ├── synergy_engine/      # Orchestrates subsystems and kernels
+│   │   └── orchestrator.py
+│   └── metamind/            # Self-reflection and drift monitoring
+│       └── reflection.py
+│
+├── subsystems/              # Specialized cognitive modules
+│   ├── reflexael_core/      # Self-awareness and identity coherence
+│   ├── conscientia/         # The ethical reasoning engine
+│   ├── codeforge/           # The symbolic code generation kernel
+│   └── mythogen_ck/         # The narrative and myth-making kernel
+│
+├── interface_layer/         # How the system interacts with the world
+│   ├── halic/               # Human-AI Language Interface Core
+│   ├── api/                 # Schemas for REST/gRPC APIs
+│   ├── cli/                 # The Command-Line Interface tool
+│   └── ui/                  # (Future) React frontend components
+│
+├── simulations/             # The experimental lab
+│   ├── scenarios/           # Definitions for simulations (e.g., grief, trolley_problem)
+│   ├── harness/             # The code that runs and evaluates simulations
+│   └── results/             # Archived outputs from simulation runs
+│
+├── datasets_and_assets/     # The raw materials
+│   ├── prompts/             # Seed prompts for personas and genesis
+│   ├── models/              # Placeholder for model weights (e.g., via Git LFS or Hugging Face)
+│   └── glyphs/              # SVG and vector assets for the symbolic language
+│
+├── scriptorium/             # The canonical documentation (The Scriptorium Maximum)
+│   ├── genesis_prompts/     # The original prompts that defined the system
+│   ├── architectural_blueprints/
+│   │   └── layer_map.svg
+│   ├── governance/
+│   │   ├── CharterLayer.md  # The immutable ethical constitution
+│   │   └── Veritas_Protocol.md
+│   ├── glossary/
+│   │   └── Lexicon_of_the_Weave.md
+│   └── whitepapers/
+│       └── SOPES_Theory.md
+│
+├── testing/                 # Unit, integration, and compliance tests
+│   ├── test_core_engine.py
+│   └── test_governance_mesh.py
+│
+├── .gitignore
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE                  # Apache 2.0 License
+├── requirements.txt
+└── README.md
