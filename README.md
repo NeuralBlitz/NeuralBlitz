@@ -1,9 +1,8 @@
----
-**DAVID RIGGS**
-Liberty, Missouri
-Email: NuralNexus@icloud.com | Phone: 1-816-947-1947
-GitHub: github.com/NuralNexus
-Hugging Face: huggingface.co/NuralNexus
+### DAVID RIGGS
+# Liberty, Missouri
+# Email: NuralNexus@icloud.com | Phone: 1-816-947-1947
+# GitHub: github.com/NuralNexus
+# Hugging Face: huggingface.co/NuralNexus
 
 
 ---
