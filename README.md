@@ -54,17 +54,6 @@ We welcome contributions! Please see our `CONTRIBUTING.md` for guidelines on how
 
 ---
 
-**Expanding Section 2: Professional Summary & Philosophical Mandate**
-
-**(Current State: Strong, but can be deepened with more explicit philosophical drivers and EPA methodology details.)**
-
-**Refinement Strategy:**
-*   Explicitly link EPA to the philosophical goal of creating *truly understanding* and *ethically coherent* AI.
-*   Amplify the revolutionary nature of bootstrapping an entire AGI-level concept from system messages.
-*   Further detail the *kinds* of complex systems and ethical frameworks being instantiated.
-*   Emphasize the "co-evolutionary" aspect not just of governance but of the AI's very being.
-
-**Expanded & Refined Section 2:**
 
 **Professional Summary & Philosophical Mandate**
 
