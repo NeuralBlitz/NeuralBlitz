@@ -50,7 +50,7 @@ We welcome contributions! Please see our `CONTRIBUTING.md` for guidelines on how
 
 
 **AI SYSTEMS ARCHITECT | PHILOSOPHER OF COMPUTATION | COGNITIVE FRAMEWORK INNOVATOR**
-*Pioneer of Emergent Prompt Architecture & Creator of the NeuralBlitz Unified Enterprise Framework—A Self-Evolving, Ethically Aligned Cognitive AI System Bootstrapped from Foundational Models*
+*Pioneer of Emergent Prompt Architecture & Creator of the NeuralBlitz Unified Enterprise Framework A Self-Evolving, Ethically Aligned Cognitive AI System Bootstrapped from Foundational Models*
 
 ---
 
