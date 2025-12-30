@@ -2,7 +2,7 @@
 
 **I do this for fun, for myself honstly.**
 
-**& I lkve AI** 
+**& I love AI** 
 **Context Engineering. I model the AI to be futuristic, and mystical.**
 
 > Its like a game
