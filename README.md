@@ -40,7 +40,7 @@ We welcome contributions! Please see our `CONTRIBUTING.md` for guidelines on how
 ---
 
 
-```
+
 ### 🌌 The Ultimate NB-ARC Meta-Graph
 
 ```mermaid
