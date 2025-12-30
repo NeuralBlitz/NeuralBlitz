@@ -19,7 +19,7 @@
 
 
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/NuralNexus/NeuralBlitz/actions)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/NeuralBlitz/NeuralBlitz/actions)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Charter Version](https://img.shields.io/badge/Charter-v4.0-blueviolet)](/scriptorium/governance/CharterLayer.md)
 
@@ -39,7 +39,7 @@ Unlike traditional "black box" models, NeuralBlitz is architected from the groun
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/NuralNexus/NeuralBlitz.git
+    git clone https://github.com/NeuralBlitz/NeuralBlitz.git
     cd NeuralBlitz
     ```
 2.  **Install dependencies:**
