@@ -24,6 +24,7 @@
 [![Charter Version](https://img.shields.io/badge/Charter-v4.0-blueviolet)](/scriptorium/governance/CharterLayer.md)
 
 
+
 **NeuralBlitz is a new paradigm for AI built on coherence, transparency, and trust. It is a "glass box" symbiotic intelligence, designed to augment human creativity and reasoning.**
 
 Unlike traditional "black box" models, NeuralBlitz is architected from the ground up to be explainable, auditable, and aligned with core ethical principles. Every output is the result of a verifiable logical path, cryptographically sealed to ensure trust.
