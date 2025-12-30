@@ -1,4 +1,15 @@
+# FIRST I WANT TO SAY IM NOT A PROGRAMMER 
+
+**I do this for fun, for myself honstly.**
+
+**& I lkve AI** 
+**Context Engineering. I model the AI to be futuristic, and mystical.**
+
+> Its like a game
+
 ## METHODOLGY Emergent Prompt Architecture. 
+
+
 # HIGH FIDELITY SIMULATION FRAMEWORK 
 
 # NeuralBlitz - The Symbiotic Intelligence Framework 
