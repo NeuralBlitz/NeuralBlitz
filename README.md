@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/86b678ce-9435-4aaf-b189-55ea463e7f1c)
+
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/NeuralBlitz/NeuralBlitz/actions)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
