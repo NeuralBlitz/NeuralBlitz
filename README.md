@@ -1,6 +1,5 @@
 
 <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/7dc9610e-0a49-49bc-8e9b-152fed67dc04" />
-
 # NeuralBlitz Ecosystem
 ### Unified Intelligence, Ethical AI & Glass-Box Symbiotic Computing
 
@@ -132,7 +131,7 @@ NeuralBlitz envisions AI not as a replacement for human intelligence, but as a *
 
 The NeuralBlitz ecosystem is organized around six foundational pillars, each addressing a critical aspect of the glass-box AI vision:
 
-### Pillar 1: Neural Architectures
+### 🧠 Pillar 1: Neural Architectures
 
 **Focus**: Novel neural network designs grounded in physics and mathematics
 
@@ -144,7 +143,7 @@ The NeuralBlitz ecosystem is organized around six foundational pillars, each add
 
 **Repos**: `NBX-LRS`, `NBOS`, `NBOS-Web`, `fishstick`, `Aetheria`, `AetherML`, `SymAI`, `grant`, `quantum_sim`, `neurosymbolic`
 
-### Pillar 2: Agent Intelligence
+### 🤖 Pillar 2: Agent Intelligence
 
 **Focus**: Autonomous agents that reason, plan, and act with ethical oversight
 
@@ -156,7 +155,7 @@ The NeuralBlitz ecosystem is organized around six foundational pillars, each add
 
 **Repos**: `lrs-agents`, `Nexus`, `LRS-NeuralBlitz`, `LRS-OpenCode-OG`, `atlas-platform`, `opencode-lrs-agents-nbx`, `openclaw-lrs-agents`, `buggy`
 
-### Pillar 3: Ethical Governance
+### ⚖️ Pillar 3: Ethical Governance
 
 **Focus**: Intrinsic, formal, and verifiable ethical constraints
 
@@ -168,7 +167,7 @@ The NeuralBlitz ecosystem is organized around six foundational pillars, each add
 
 **Repos**: `Symbiotic-Catalyst`, `epa`, `ethical-ai-gateway`, `ReflexiveOracle`, `Nebulawrap`, `NBOS-Web`
 
-### Pillar 4: Developer Tooling
+### 🔧 Pillar 4: Developer Tooling
 
 **Focus**: Production-grade tools for building AI systems
 
@@ -180,7 +179,7 @@ The NeuralBlitz ecosystem is organized around six foundational pillars, each add
 
 **Repos**: `DevMate`, `Mito`, `Legacy-Code-Archaeologist`, `NB-OmniLang`, `Gitkit`, `context-hub`
 
-### Pillar 5: Research Foundations
+### 📚 Pillar 5: Research Foundations
 
 **Focus**: Theoretical foundations bridging physics, mathematics, and AI
 
@@ -192,7 +191,7 @@ The NeuralBlitz ecosystem is organized around six foundational pillars, each add
 
 **Repos**: `Advanced-Research`, `ComputationalAxioms`, `quantum_sim`, `grant`, `TheoreticalComputerScience.jl`
 
-### Pillar 6: Platform Ecosystem
+### 🌐 Pillar 6: Platform Ecosystem
 
 **Focus**: End-to-end platforms for deploying AI systems
 
@@ -377,11 +376,89 @@ Level 1: DORMANT (0.0)
 
 ***
 
+## 4. Architectural Overview
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                        NEURALBLITZ ECOSYSTEM ARCHITECTURE                       │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│  ┌──────────────────────────────────────────────────────────────────────────┐   │
+│  │                         USER INTERFACE LAYER                              │   │
+│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  │   │
+│  │  │ Nexus-ui │  │ NexusIDE │  │NBOS-Web  │  │ DevMate  │  │  buggy   │  │   │
+│  │  │ (React)  │  │(Monaco)  │  │(React)   │  │  (CLI)   │  │  (TUI)   │  │   │
+│  │  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘  │   │
+│  └───────┼─────────────┼─────────────┼─────────────┼─────────────┼───────┘   │
+│          │             │             │             │             │            │
+│          ▼             ▼             ▼             ▼             ▼            │
+│  ┌──────────────────────────────────────────────────────────────────────────┐   │
+│  │                      ORCHESTRATION & AGENT LAYER                          │   │
+│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  │   │
+│  │  │  Nexus   │  │   LRS    │  │  atlas   │  │ opencode │  │ openclaw │  │   │
+│  │  │(30 agents│  │-agents   │  │-platform │  │-lrs-agnts│  │-lrs-agnts│  │   │
+│  │  │ 189+ int)│  │ (Active  │  │(4 exec   │  │  (Go)    │  │  (TS)    │  │   │
+│  │  │          │  │ Inference)│  │ strategies)│         │  │          │  │   │
+│  │  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘  │   │
+│  └───────┼─────────────┼─────────────┼─────────────┼─────────────┼───────┘   │
+│          │             │             │             │             │            │
+│          └─────────────┴─────────────┴─────────────┴─────────────┘            │
+│                                    │                                           │
+│                                    ▼                                           │
+│  ┌──────────────────────────────────────────────────────────────────────────┐   │
+│  │                    AI/ML & COGNITIVE ENGINE LAYER                         │   │
+│  │  ┌────────────┐  ┌────────────┐  ┌────────────┐  ┌────────────────────┐  │   │
+│  │  │  fishstick  │  │  Aetheria  │  │  Ainglys   │  │   neuralblitz-v50  │  │   │
+│  │  │ (234 mods) │  │  (SOLID)   │  │  (ACCA)   │  │(Quantum+Conscious) │  │   │
+│  │  └────┬───────┘  └────┬───────┘  └────┬───────┘  └─────────┬──────────┘  │   │
+│  │       │               │               │                    │             │   │
+│  │  ┌────┴────┐  ┌──────┴──────┐  ┌─────┴─────┐  ┌───────────┴───────────┐ │   │
+│  │  │quantum_ │  │   GraNT     │  │ Goainglys │  │     NBX-LRS          │ │   │
+│  │  │  sim     │  │(Granular)  │  │   (Go)    │  │(8 architectures)    │ │   │
+│  │  └──────────┘  └─────────────┘  └───────────┘  └─────────────────────┘ │   │
+│  └──────────────────────────────────────────────────────────────────────────┘   │
+│                                    │                                           │
+│                                    ▼                                           │
+│  ┌──────────────────────────────────────────────────────────────────────────┐   │
+│  │                      ETHICAL GOVERNANCE LAYER                             │   │
+│  │  ┌────────────────┐  ┌────────────────┐  ┌────────────────────────┐   │   │
+│  │  │  CharterLayer  │  │  GoldenDAG      │  │    CECT                │   │   │
+│  │  │ (φ₁-φ₂₃ axioms)│  │ (SHA-256 audit)│  │(Charter-Ethical Tensor)│   │   │
+│  │  └────────────────┘  └────────────────┘  └────────────────────────┘   │   │
+│  │  ┌────────────────┐  ┌────────────────┐  ┌────────────────────────┐   │   │
+│  │  │  EPA           │  │ Symbiotic-     │  │   ethical-ai-          │   │   │
+│  │  │(Prompt Ethics) │  │ Catalyst       │  │   gateway              │   │   │
+│  │  └────────────────┘  └────────────────┘  └────────────────────────┘   │   │
+│  └──────────────────────────────────────────────────────────────────────────┘   │
+│                                    │                                           │
+│                                    ▼                                           │
+│  ┌──────────────────────────────────────────────────────────────────────────┐   │
+│  │                     MATHEMATICAL FOUNDATIONS LAYER                       │   │
+│  │  ┌─────────────┐  ┌──────────────┐  ┌─────────────┐  ┌───────────────┐  │   │
+│  │  │Category     │  │Sheaf         │  │Information  │  │Quantum         │  │   │
+│  │  │Theory       │  │Cohomology    │  │Geometry     │  │Mechanics      │  │   │
+│  │  └─────────────┘  └──────────────┘  └─────────────┘  └───────────────┘  │   │
+│  └──────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+INTER-REPO DEPENDENCIES:
+━━━━━━━━━━━━━━━━━━━━━━━━
+NBOS ──────► lrs-agents ──► fishstick ──► Aetheria
+ │                │              │              │
+ ▼                ▼              ▼              ▼
+NBOS-Web ◄── Nexus ◄──── atlas ◄─ Mito ◄──── Ainglys
+              │                             │
+              └──────────► LRS-NeuralBlitz ◄┘
+```
+
+***
+
 ## 5. Core Architecture — NBOS
 
 ### 5.1 NBOS — NeuralBlitz Operating System
 
-**Path**: `NBOS/`
+**Path**: `NBOS/` | 🔗 [GitHub](https://github.com/NeuralBlitz/NBOS)
 
 NBOS is the flagship full-stack platform — a production-grade web application combining an Express/React frontend with a Python neural engine implementing the Synergy Engine, DRS v7.0, and CharterLayer.
 
@@ -459,7 +536,7 @@ class CharterLayer:
 
 ### 5.2 NBOS-Web — Production Blueprint
 
-**Path**: `NBOS-Web/`
+**Path**: `NBOS-Web/` | 🔗 [GitHub](https://github.com/NeuralBlitz/NBOS-Web)
 
 The most architecturally complete version of NBOS. Contains the same Express/React/Python stack as NBOS but with:
 
@@ -547,7 +624,7 @@ NBOS-Web/
 
 ### 5.3 NBOS-KERNEL — Architecture Visualizer
 
-**Path**: `NBOS-KERNEL/`
+**Path**: `NBOS-KERNEL/` | 🔗 [GitHub](https://github.com/NeuralBlitz/NBOS-KERNEL)
 
 A React 19 visualization dashboard that renders the complete 10-layer NBOS architecture (v20.0 "Apical Synthesis") with an interactive terminal boot sequence.
 
@@ -631,7 +708,7 @@ LAYER 10: META / INVARIANTS
 
 ### 6.1 fishstick — Grand Unified AI Framework
 
-**Path**: `fishstick/` | **Modules**: 234 | **Languages**: Python
+**Path**: `fishstick/` | **Modules**: 234 | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/fishstick)
 
 fishstick is the crown jewel of the AI/ML layer — a mathematically rigorous, physically grounded AI framework synthesizing theoretical physics, formal mathematics, and advanced machine learning.
 
@@ -782,7 +859,7 @@ class SheafAttention:
 
 ### 6.2 Aetheria — Scale-Agnostic Deep Learning
 
-**Path**: `aetheria-project/` | **Languages**: Python
+**Path**: `aetheria-project/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/aetheria-project)
 
 SOLID deep learning framework that scales from single CPU to 1000+ GPU clusters with zero code changes.
 
@@ -897,7 +974,7 @@ class Orchestrator:
 
 ### 6.3 Ainglys — Production AI Platform
 
-**Path**: `Ainglys/` | **Features**: 48 | **Tests**: 170+
+**Path**: `Ainglys/` | **Features**: 48 | **Tests**: 170+ | 🔗 [GitHub](https://github.com/NeuralBlitz/Ainglys)
 
 A unified AI/ML platform combining CLI, REST API, distributed training, AutoML, and visualization.
 
@@ -982,7 +1059,7 @@ class ACCAModel(nn.Module):
 
 ### 6.4 quantum_sim — Quantum Circuit Simulation
 
-**Path**: `quantum_sim/` | **Languages**: Python
+**Path**: `quantum_sim/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/quantum_sim)
 
 Density matrix-based quantum circuit simulator with physical noise emulation for NISQ-era devices.
 
@@ -1090,7 +1167,7 @@ class SweetSpotMapper:
 
 ### 6.5 grant (GraNT) — Granular Numerical Tensor Framework
 
-**Path**: `grant/` | **Languages**: Python
+**Path**: `grant/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/grant)
 
 Next-generation AI combining granular arithmetic with sheaf-theoretic attention.
 
@@ -1154,7 +1231,7 @@ class SheafAttentionLayer(nn.Module):
 
 ### 6.6 Goainglys — Pure Go ML Stack
 
-**Path**: `Goainglys/` | **Languages**: Go | **Deps**: Zero external
+**Path**: `Goainglys/` | **Languages**: Go | **Deps**: Zero external | 🔗 [GitHub](https://github.com/NeuralBlitz/Goainglys)
 
 Native Go ML projects with zero external dependencies. Complete Transformer, Vector DB, ASR, RAG — all in pure Go.
 
@@ -1230,7 +1307,7 @@ func (h *HNSW) Search(query []float32, k int) []SearchResult {
 
 ### 6.7 AetherML — SOLID AI Framework
 
-**Path**: `AetherML/` | **Languages**: Python
+**Path**: `AetherML/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/AetherML)
 
 Modular, object-oriented AI framework built on SOLID principles. Specification-only repository containing the complete design document.
 
@@ -1267,7 +1344,7 @@ class PluginManager:
 
 ### 6.8 SymAI — Symphony AI Framework
 
-**Path**: `SymAI/` | **Languages**: Python
+**Path**: `SymAI/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/SymAI)
 
 A `UEF/SIMI v8.0.OmegaPrime`-inspired architecture emphasizing verifiable modularity, dynamic extensibility, semantic coherence, and SOLID design.
 
@@ -1298,7 +1375,7 @@ class Accuracy(BaseMetric):
 
 ### 7.1 lrs-agents — Active Inference Core
 
-**Path**: `lrs-agents/` | **Languages**: Python
+**Path**: `lrs-agents/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/lrs-agents)
 
 The primary Python implementation of LRS-Agents using **Active Inference** principles. This is the core engine powering the entire NeuralBlitz agent ecosystem.
 
@@ -1421,7 +1498,7 @@ class ToolLens:
 
 ### 7.2 Nexus — Agent Orchestration Platform
 
-**Path**: `Nexus/` | **Agents**: 30 | **Integrations**: 189+ | **Languages**: JavaScript
+**Path**: `Nexus/` | **Agents**: 30 | **Integrations**: 189+ | **Languages**: JavaScript | 🔗 [GitHub](https://github.com/NeuralBlitz/Nexus)
 
 The most feature-rich repository in the ecosystem. A local-first AI agent orchestration platform.
 
@@ -1513,7 +1590,7 @@ TIER 4: PROCEDURAL MEMORY
 
 ### 7.3 LRS-NeuralBlitz — Full Cognitive Ecosystem
 
-**Path**: `LRS-NeuralBlitz/` | **Components**: 16 | **Languages**: Python, TypeScript
+**Path**: `LRS-NeuralBlitz/` | **Components**: 16 | **Languages**: Python, TypeScript | 🔗 [GitHub](https://github.com/NeuralBlitz/LRS-NeuralBlitz)
 
 The universe-creating platform — 16 major component systems.
 
@@ -1540,7 +1617,7 @@ The universe-creating platform — 16 major component systems.
 
 ### 7.4 LRS-OpenCode-OG — Enterprise Integration Hub
 
-**Path**: `LRS-OpenCode-OG/` | **Performance**: 264,447x faster | **Languages**: Python
+**Path**: `LRS-OpenCode-OG/` | **Performance**: 264,447x faster | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/LRS-OpenCode-OG)
 
 Production-grade integration of LRS with OpenCode achieving massive performance gains through caching.
 
@@ -1554,7 +1631,7 @@ Production-grade integration of LRS with OpenCode achieving massive performance 
 
 ### 7.5 atlas-platform — Agentic Prompt Orchestration
 
-**Path**: `atlas-platform/` | **Languages**: TypeScript
+**Path**: `atlas-platform/` | **Languages**: TypeScript | 🔗 [GitHub](https://github.com/NeuralBlitz/atlas-platform)
 
 Multi-agent cognitive framework for coordinating AI agents through 4 execution strategies.
 
@@ -1614,13 +1691,13 @@ interface AgentState {
 
 ### 7.6 buggy — Production TUI
 
-**Path**: `buggy/` | **Languages**: Python, TypeScript, JavaScript, Go
+**Path**: `buggy/` | **Languages**: Python, TypeScript, JavaScript, Go | 🔗 [GitHub](https://github.com/NeuralBlitz/buggy)
 
 Complete Advanced TUI for local AI development with VHD & Dev Drive support.
 
 ### 7.7 synapse_project — Cognitive Graphs
 
-**Path**: `synapse_project/` | **Languages**: Python
+**Path**: `synapse_project/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/synapse_project)
 
 Framework for building "Cognitive Graphs" — stateful, multi-step AI workflows where each step is a node in a reasoning graph.
 
@@ -1655,7 +1732,7 @@ class Graph:
 
 ### 7.8 opencode-lrs-agents-nbx — Go LRS
 
-**Path**: `opencode-lrs-agents-nbx/` | **Languages**: Go
+**Path**: `opencode-lrs-agents-nbx/` | **Languages**: Go | 🔗 [GitHub](https://github.com/NeuralBlitz/opencode-lrs-agents-nbx)
 
 High-performance Go implementation of LRS-Agents.
 
@@ -1669,13 +1746,13 @@ High-performance Go implementation of LRS-Agents.
 
 ### 7.9 openclaw-lrs-agents — Personal AI
 
-**Path**: `openclaw-lrs-agents/` | **Languages**: TypeScript
+**Path**: `openclaw-lrs-agents/` | **Languages**: TypeScript | 🔗 [GitHub](https://github.com/NeuralBlitz/openclaw-lrs-agents)
 
 Personal AI assistant with 25+ messaging channels, voice wake + talk mode, and visual workspace.
 
 ### 7.10 ncx — Production NB-Ecosystem
 
-**Path**: `ncx/` | **Languages**: Python
+**Path**: `ncx/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/ncx)
 
 PostgreSQL-based production implementation with GoldenDAG audit trails, FastAPI, and React knowledge graph.
 
@@ -1689,7 +1766,7 @@ PostgreSQL-based production implementation with GoldenDAG audit trails, FastAPI,
 
 ### 8.1 Mito — AI Toolkit
 
-**Path**: `Mito/` | **Modules**: 14 AI | **Plugins**: 276 | **Languages**: Python + C++
+**Path**: `Mito/` | **Modules**: 14 AI | **Plugins**: 276 | **Languages**: Python + C++ | 🔗 [GitHub](https://github.com/NeuralBlitz/Mito)
 
 Comprehensive AI toolkit combining Python modules with C++ llama.cpp inference.
 
@@ -1755,7 +1832,7 @@ class MultiAgentSystem:
 
 ### 8.2 DevMate — Omni-Shell
 
-**Path**: `DevMate/` | **Commands**: 700+ | **Languages**: TypeScript
+**Path**: `DevMate/` | **Commands**: 700+ | **Languages**: TypeScript | 🔗 [GitHub](https://github.com/NeuralBlitz/DevMate)
 
 Universal CLI connecting 700+ tools, services, and platforms.
 
@@ -1774,7 +1851,7 @@ Universal CLI connecting 700+ tools, services, and platforms.
 
 ### 8.3 NebulaWrap — LLM Wrapper SDK
 
-**Path**: `Nebulawrap/` | **Languages**: Python
+**Path**: `Nebulawrap/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/Nebulawrap)
 
 Minimal LLM wrapper with pluggable adapters and GoldenDAG provenance.
 
@@ -1834,7 +1911,7 @@ class ProviderAdapter(ABC):
 
 ### 8.4 Legacy-Code-Archaeologist
 
-**Path**: `Legacy-Code-Archaeologist/` | **Languages**: Python
+**Path**: `Legacy-Code-Archaeologist/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/Legacy-Code-Archaeologist)
 
 CLI tool combining Tree-sitter + GPT-4 for legacy code auditing.
 
@@ -1870,7 +1947,7 @@ class AIGraphSummarizer:
 
 ### 8.5 NB-OmniLang — Executable Markdown
 
-**Path**: `NB-OmniLang/` | **Languages**: TypeScript
+**Path**: `NB-OmniLang/` | **Languages**: TypeScript | 🔗 [GitHub](https://github.com/NeuralBlitz/NB-OmniLang)
 
 Revolutionary development platform combining executable Markdown (.omd), NLP code generation, and a full JavaScript compiler.
 
@@ -1934,13 +2011,13 @@ const NLP_PATTERNS = [
 
 ### 8.6 Gitkit — AI Wiki Generator
 
-**Path**: `Gitkit/` | **Languages**: TypeScript
+**Path**: `Gitkit/` | **Languages**: TypeScript | 🔗 [GitHub](https://github.com/NeuralBlitz/Gitkit)
 
 Takes any GitHub repo URL and auto-generates wiki documentation using Google Gemini.
 
 ### 8.7 context-hub — Agent Documentation System
 
-**Path**: `context-hub/` | **Languages**: Node.js
+**Path**: `context-hub/` | **Languages**: Node.js | 🔗 [GitHub](https://github.com/NeuralBlitz/context-hub)
 
 CLI tool providing curated, versioned, language-specific API documentation for coding agents.
 
@@ -1967,7 +2044,7 @@ chub feedback openai/chat --upvote --comment "Great docs!"
 
 ### 9.1 Advanced-Research — Research Hub
 
-**Path**: `Advanced-Research/` | **Entries**: 45+ | **Languages**: Python, Go
+**Path**: `Advanced-Research/` | **Entries**: 45+ | **Languages**: Python, Go | 🔗 [GitHub](https://github.com/NeuralBlitz/Advanced-Research)
 
 The core research hub bridging theoretical physics, formal mathematics, and advanced ML.
 
@@ -2011,7 +2088,7 @@ IDEAS (Theory) ──► SYNTHESIS (Apical Chapters) ──► IMPLEMENTATION (C
 
 ### 9.2 ComputationalAxioms — TCS & Pure Mathematics
 
-**Path**: `ComputationalAxioms/` | **Files**: 25+ | **Languages**: Python, LaTeX
+**Path**: `ComputationalAxioms/` | **Files**: 25+ | **Languages**: Python, LaTeX | 🔗 [GitHub](https://github.com/NeuralBlitz/ComputationalAxioms)
 
 Rigorous exploration of theoretical computer science and formal mathematics.
 
@@ -2045,7 +2122,7 @@ Axiomatic Collapse:
 
 ### 9.3 ReflexiveOracle — Absolute Codex v20
 
-**Path**: `ReflexiveOracle/` | **Pages**: 100+ | **Languages**: Markdown
+**Path**: `ReflexiveOracle/` | **Pages**: 100+ | **Languages**: Markdown | 🔗 [GitHub](https://github.com/NeuralBlitz/ReflexiveOracle)
 
 The complete NeuralBlitz Absolute Codex v20.0 "Apical Synthesis" — a 100+ page meta-reference document.
 
@@ -2065,7 +2142,7 @@ The complete NeuralBlitz Absolute Codex v20.0 "Apical Synthesis" — a 100+ page
 
 ### 9.4 Symbiotic-Catalyst — Ethical Framework
 
-**Path**: `Symbiotic-Catalyst/` | **Axioms**: 23+ | **Languages**: Markdown, ReflexaelLang
+**Path**: `Symbiotic-Catalyst/` | **Axioms**: 23+ | **Languages**: Markdown, ReflexaelLang | 🔗 [GitHub](https://github.com/NeuralBlitz/Symbiotic-Catalyst)
 
 Self-organizing, ontology-driven control architecture.
 
@@ -2116,7 +2193,7 @@ The stiffness parameter λ controls constraint tightness:
 
 ### 9.5 ethical-ai-gateway — Principled Prompt Protector
 
-**Path**: `ethical-ai-gateway-principled-prompt-protector/` | **Languages**: Python
+**Path**: `ethical-ai-gateway-principled-prompt-protector/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/ethical-ai-gateway-principled-prompt-protector)
 
 Hugging Face-powered ethical filter for LLM prompts.
 
@@ -2153,7 +2230,7 @@ class PromptProcessor:
 
 ### 9.6 epa — Ethical Prompt Architecture
 
-**Path**: `epa/` | **Languages**: Python
+**Path**: `epa/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/epa)
 
 Composable, auditable meta-layer for language models embodying the Universal Flourishing Objective.
 
@@ -2197,7 +2274,7 @@ class EPA:
 
 ### 10.1 NBX-LRS — Quantum-Classical Hybrid Neural Architectures
 
-**Path**: `NBX-LRS/` | **Languages**: Python
+**Path**: `NBX-LRS/` | **Languages**: Python | 🔗 [GitHub](https://github.com/NeuralBlitz/NBX-LRS)
 
 The core research engine implementing 8 breakthrough neural architectures.
 
@@ -2299,7 +2376,7 @@ class ConsciousnessTracker:
 
 ### 10.2 neuralblitz-v50 — Cognitive Engine
 
-**Path**: `NBX-LRS/neuralblitz-v50/` | **Components**: 60+ | **Languages**: Python, Rust, Go, JS
+**Path**: `NBX-LRS/neuralblitz-v50/` | **Components**: 60+ | **Languages**: Python, Rust, Go, JS | 🔗 [GitHub](https://github.com/NeuralBlitz/NBX-LRS/tree/main/neuralblitz-v50)
 
 The main NeuralBlitz v50.0 implementation with standalone breakthrough modules.
 
