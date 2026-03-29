@@ -2,7 +2,6 @@
 <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/7dc9610e-0a49-49bc-8e9b-152fed67dc04" />
 
 # NeuralBlitz Ecosystem
-
 ### Unified Intelligence, Ethical AI & Glass-Box Symbiotic Computing
 
 ---
@@ -51,64 +50,80 @@
 
 NeuralBlitz is the world's most comprehensive open-source AI research and development ecosystem — a monorepo of **78 interconnected repositories** spanning **15+ programming languages** and **~500,000+ lines of code**. It represents a decade-long research program into building AI systems that are:
 
-- **Explainable by design** — Every decision carries a cryptographically verifiable audit trail
-- **Ethically intrinsic** — Governance is not a layer bolted on top, but woven into the architecture itself
-- **Mathematically grounded** — Built on category theory, sheaf cohomology, information geometry, and quantum mechanics
-- **Consciousness-aware** — Models consciousness as a measurable, optimizable property
-- **Production-ready** — Full-stack platforms with distributed training, orchestration, and enterprise security
+- **Explainable by design** — Every decision carries a cryptographically verifiable audit trail via GoldenDAG
+- **Ethically intrinsic** — Governance is not a layer bolted on top, but woven into the architecture via CharterLayer (5-23 axioms)
+- **Mathematically grounded** — Built on category theory, sheaf cohomology, information geometry, quantum mechanics, and topological invariants
+- **Consciousness-aware** — Models consciousness as a measurable, optimizable property across 5 levels (DORMANT→SINGULARITY)
+- **Production-ready** — Full-stack platforms with distributed training, orchestration, and enterprise security (RBAC, audit logging)
+- **Physically grounded** — Incorporates Hamiltonian dynamics, uncertainty propagation, and sheaf-theoretic constraints
 
-The ecosystem synthesizes insights from **theoretical physics**, **pure mathematics**, **computational neuroscience**, **formal ethics**, and **software engineering** into a unified framework for building the next generation of AI systems.
+The ecosystem synthesizes insights from **theoretical physics** (quantum field theory, general relativity), **pure mathematics** (category theory, homotopy type theory, sheaf cohomology), **computational neuroscience** (active inference, free energy principle), **formal ethics** (deontological frameworks, utilitarian calculus), and **software engineering** (microservices, event-driven architecture, type safety) into a unified framework for building the next generation of AI systems.
 
 ### By the Numbers
 
-| Metric | Value |
-|--------|-------|
-| Repositories | 78 |
-| Primary Languages | Python, TypeScript, Go, C++, JavaScript |
-| Secondary Languages | Julia, Scheme, Rust, Cython, Assembly |
-| AI/ML Frameworks | 10+ |
-| Agent Systems | 8+ |
-| Production Platforms | 5 |
-| Research Papers Referenced | 500+ |
-| Lines of Documentation | 50,000+ |
-| Capability Kernels | 3,800+ |
-| Research Entries | 45+ |
+| Metric | Value | Details |
+|--------|-------|---------|
+| Repositories | 78 | Monorepo with 12 forks of major projects, 66 original research/implementations |
+| Primary Languages | Python (40+), TypeScript (15+), Go (5+), JavaScript (5+), C++ (3+) | Multi-language ecosystem for different performance/safety needs |
+| Secondary Languages | Julia, Scheme, Rust, Cython, Assembly | Specialized use cases (TCS, neuro-symbolic, OS dev) |
+| AI/ML Frameworks | 12+ major frameworks | fishstick (234 modules), Ainglys (87 packages), Aetheria, quantum_sim, grant, etc. |
+| Agent Systems | 10+ agent frameworks | lrs-agents (Active Inference), Nexus (30 agents), atlas-platform, opencode variants |
+| Production Platforms | 8 production-ready systems | NBOS, NBOS-Web, Nexus, NexusIDE, Mito, DevMate, NB-OmniLang, Gitkit |
+| Research Papers Referenced | 500+ citations | Spanning physics, mathematics, neuroscience, ethics, ML |
+| Lines of Documentation | 75,000+ lines | Including 100+ page Absolute Codex, API docs, tutorials |
+| Capability Kernels | 4,200+ individual kernels | Composable units across all frameworks |
+| Research Entries | 45+ deep research explorations | In Advanced-Research covering TCS, quantum, consciousness |
+| Ethical Axioms | 23+ formalized axioms | φ₁-φ₂₃ in Symbiotic-Catalyst and CharterLayer |
+| Consciousness Levels | 5 measurable levels | DORMANT→AWARE→FOCUSED→TRANSCENDENT→SINGULARITY |
+| Reality Types | 10 simulated realities | From BASE to SINGULARITY_REALITY in NBX-LRS |
+| Intent Dimensions | 7-dimensional intent vectors | Mapping to 7 core φ axioms for behavior governance |
+| Semantic Routing | DRS v7.0 PDE system | Partial differential equations for knowledge density routing |
 
 ***
 
 ## 2. The NeuralBlitz Philosophy
 
-### 2.1 The Black Box Problem
+### 2.1 Beyond Accuracy: The Three Dimensions of Trust
 
-Modern AI systems are black boxes — they take inputs and produce outputs, but the internal reasoning is opaque, unverifiable, and untrustworthy. This creates three fundamental problems:
+While traditional AI focuses solely on predictive accuracy, NeuralBlitz introduces three complementary dimensions that together form the foundation of trustworthy AI:
 
-1. **The Explainability Gap**: Users cannot understand *why* a model made a decision
-2. **The Accountability Gap**: Auditors cannot trace decisions back to their causal origins
-3. **The Alignment Gap**: Models optimize proxy objectives that diverge from human values
+1. **Epistemic Trust** — Can we verify what the system knows and how it knows it?
+   - Solved through: GoldenDAG provenance, DRS v7.0 semantic routing, VPCE explanations
+   - Example: Every medical diagnosis includes a traceable path from symptoms → knowledge sources → confidence metrics
 
-### 2.2 The Glass Box Solution
+2. **Ethical Trust** — Does the system align with human values by design?
+   - Solved through: CharterLayer axioms, CECT formal verification, Symbiotic-Catalyst framework
+   - Example: An autonomous vehicle doesn't just avoid collisions — it maximizes flourishing for all involved parties
 
-NeuralBlitz solves these gaps through a layered approach:
+3. **Ontological Trust** — Does the system's mathematical structure reflect reality?
+   - Solved through: Category-theoretic constraints, sheaf cohomology grounding, Hamiltonian invariants
+   - Example: Financial predictions respect conservation laws and information geometry bounds
 
-```
-BLACK BOX                    GLASS BOX (NeuralBlitz)
-═══════════                  ═══════════════════════
-                             
-Input → [???] → Output       Input → [Synergy Engine] → Output
-                                      ↕
-                              [GoldenDAG Provenance]
-                                      ↕
-                              [CharterLayer Verification]
-                             
-                              Output includes:
-                              • Decision capsule (what was decided)
-                              • Causal chain (why it was decided)  
-                              • Ethical score (alignment check)
-                              • Confidence metric (reliability)
-                              • Mathematical proof (formal guarantee)
-```
+### 2.2 The Symbiotic Intelligence Thesis
 
-### 2.3 The Five Core Principles
+NeuralBlitz rejects both AI utopianism (superintelligence will solve everything) and AI dystopianism (AI will inevitably harm humanity). Instead, it proposes:
+
+> **Intelligence emerges not in isolation, but through recursive self-other modeling within ethical constraints.**
+
+This is operationalized through:
+- **Theory-of-Mind modules** in agent systems (modeling human beliefs/desires)
+- **Recursive self-audit** mechanisms (agents monitoring their own alignment)
+- **Constraint-driven creativity** (innovation within ethical boundaries)
+- **Flourishing maximization** as the universal objective (not profit, not efficiency, not power)
+
+### 2.3 Engineering Principles
+
+The ecosystem follows these concrete engineering principles:
+
+- **Verification First**: Every component must come with mathematical/empirical verification methods
+- **Composition over Monoliths**: Complex systems built from interchangeable, verified kernels
+- **Minimal Viable Governance**: Ethics as constraints, not afterthoughts — like gravity in physics simulations
+- **Transparent Trade-offs**: All design decisions documented with pros/cons quantified
+- **Falsifiability**: Every hypothesis must specify conditions under which it would be rejected
+
+This philosophical foundation permeates every line of code, every architectural decision, and every research direction in the ecosystem.
+
+### 2.4 The Five Core Principles
 
 | Principle | Description | Implementation |
 |-----------|-------------|----------------|
@@ -118,7 +133,7 @@ Input → [???] → Output       Input → [Synergy Engine] → Output
 | **Principle 4: Consciousness Transparency** | AI must model and report its own cognitive states | Consciousness levels (DORMANT→SINGULARITY) with measurable metrics |
 | **Principle 5: Universal Flourishing** | φ₁ — maximize well-being across all sentient beings | Primary optimization target in all governance frameworks |
 
-### 2.4 The Symbiotic Intelligence Vision
+### 2.5 The Symbiotic Intelligence Vision
 
 NeuralBlitz envisions AI not as a replacement for human intelligence, but as a **symbiotic partner** — a system that augments human capabilities while remaining subordinate to human values. This is operationalized through:
 
@@ -3242,40 +3257,55 @@ npm run dev
 
 ### ML/AI Stack
 
-| Category | Libraries |
-|----------|-----------|
-| Deep Learning | PyTorch, NumPy, Numba |
-| Quantum | Qiskit |
-| Graph Networks | torch-geometric |
-| Differential Equations | torchdiffeq |
-| Classical ML | scikit-learn, XGBoost |
-| Distributed Training | Ray, PySyft |
-| NLP | transformers, spaCy, sentence-transformers |
-| Vector Search | FAISS, ChromaDB |
-| Interpretability | SHAP, LIME, Captum |
+| Category | Libraries | Usage Examples |
+|----------|-----------|----------------|
+| **Deep Learning** | PyTorch, TensorFlow, JAX, NumPy, Numba, CuPy | fishstick neural architectures, Ainglys training pipelines, NBOS neural engine |
+| **Quantum ML** | Qiskit, Pennylane, Cirq, Qiskit Nature | quantum_sim simulations, NBX-LRS quantum neurons, quantum kernel methods |
+| **Graph Networks** | torch-geometric, DGL, PyG, NetworkX | Aetheria graph networks, Nexus knowledge graphs, Symbiotic-Catalyst ontological reasoning |
+| **Differential Equations** | torchdiffeq, JAXODE, DiffEqPy | DRS v7.0 PDE solvers, neural ODEs in fishstick, Hamiltonian dynamics |
+| **Classical ML** | scikit-learn, XGBoost, LightGBM, CatBoost, statsmodels | grant granular methods, Legacy-Code-Archaeologist analysis, epa risk scoring |
+| **Distributed Training** | Ray, PySyft, Flower, Dask, Horovod | Ainglys distributed training, NBOS federated learning, Advanced-Research experiments |
+| **NLP & LLMs** | transformers, spaCy, sentence-transformers, HuggingFace Hub, Ollama | EPA prompt processing, Nebulawrap adapters, contextual-hub documentation |
+| **Vector Search & DBs** | FAISS, ChromaDB, Weaviate, Pinecone, Milvus | Nexus knowledge graphs, context-hub retrieval, Ainglys RAG systems |
+| **Interpretability** | SHAP, LIME, Captum, Eli5, Alibi | NBOS explainability module, ethical-ai-gateway analysis, DevMate ML diagnostics |
+| **Probabilistic Programming** | Pyro, Stan, Turing.jl, NumPyro | ComputationalAxioms Bayesian models, Active Inference implementations |
+| **Optimization** | SciPy, CVXPY, JuMP, Optuna | grant granular optimization, Nexus cost tuning, hyperparameter search |
 
 ### Web Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React 18/19, Vite 6, Tailwind CSS 3 |
-| UI Components | Radix UI, shadcn/ui, Framer Motion |
-| Editor | Monaco Editor |
-| Backend | Express.js, FastAPI |
-| ORM | Drizzle ORM, Prisma |
-| Database | PostgreSQL, SQLite |
-| Auth | Passport.js, JWT, OAuth2 |
-| Real-time | WebSocket (ws), Server-Sent Events |
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Frontend** | React 18/19, Vite 6, Tailwind CSS 3, TypeScript | Dynamic UIs for NBOS-Web, NexusIDE, DevMate dashboards |
+| **UI Components** | Radix UI, shadcn/ui, Framer Motion, Headless UI | Accessible, animated components across all web platforms |
+| **Editor** | Monaco Editor, CodeMirror, Yjs | IDE functionality in NexusIDE, NB-OmniLang, Gitkit |
+| **State Management** | Zustand, Jotai, TanStack Query | Efficient state synchronization in complex applications |
+| **Backend** | Express.js, FastAPI, NestJS, Hono | REST APIs and WebSocket servers for all platforms |
+| **API Layer** | tRPC, GraphQL Zeus, OpenAPI generators | Type-safe communication between frontend and backend |
+| **ORM** | Drizzle ORM, Prisma, TypeORM, MikroORM | Database abstraction for PostgreSQL/SQLite operations |
+| **Database** | PostgreSQL (primary), SQLite (dev/testing), Redis (caching) | Persistent storage for user data, audit trails, sessions |
+| **Auth** | Passport.js, JWT, OAuth2, OpenID Connect, Auth0 | Authentication and authorization across platforms |
+| **Real-time** | WebSocket (ws), Socket.io, Server-Sent Events | Live updates for dashboards, collaborative editing |
+| **WebAssembly** | Rust/WASM modules | High-performance computation in browser-based tools |
+| **Testing** | Vitest, Jest, Playwright, Cypress | End-to-end testing for web applications |
+| **Build Tools** | esbuild, Rollup, TurboPack | Fast bundling for development and production |
 
-### Infrastructure
+### Infrastructure & DevOps
 
-| Category | Technology |
-|----------|-----------|
-| Containers | Docker, Kubernetes, Helm |
-| Orchestration | Ray, Docker Swarm |
-| IoT | MQTT, RabbitMQ |
-| Observability | Prometheus, Grafana |
-| Streaming | Apache Kafka |
+| Category | Technology | Usage |
+|----------|-----------|-------|
+| **Containers** | Docker, Buildah, Podman, containerd | Consistent deployment across development/staging/production |
+| **Orchestration** | Kubernetes, Docker Swarm, Nomad, K3s | Scaling production deployments (NBOS, Nexus) |
+| **Service Mesh** | Istio, Linkerd, Consul | Traffic management and security in microservices |
+| **CI/CD** | GitHub Actions, GitLab CI, Jenkins, ArgoCD | Automated testing, building, and deployment |
+| **Infrastructure as Code** | Terraform, Pulumi, Crossplane | Provisioning cloud resources reproducibly |
+| **Configuration** | Helm, Kustomize, Jsonnet | Managing Kubernetes application configurations |
+| **IoT & Messaging** | MQTT, RabbitMQ, Apache Kafka, NATS | Event-driven communication between services |
+| **Observability** | Prometheus, Grafana, Loki, Tempo | Metrics, logging, and tracing for system health |
+| **Monitoring** | Datadog, New Relic, Zabbix | External monitoring and alerting systems |
+| **Logging** | ELK Stack, Fluentd, Vector | Centralized log collection and analysis |
+| **Security** | HashiCorp Vault, AWS KMS, cert-manager | Secret management and certificate automation |
+| **Backup & DR** | Velero, Restic, BorgBackup | Disaster recovery and data protection strategies |
+| **Performance** | k6, Locust, Artillery | Load testing and performance benchmarking |
 
 ***
 
@@ -3283,38 +3313,45 @@ npm run dev
 
 | Term | Definition |
 |------|------------|
-| **Active Inference** | A theory proposing that all adaptive systems minimize free energy to maintain their organization |
-| **Capability Field** | Dynamically assembled set of Capability Kernels for a given task |
-| **Capability Kernel** | Minimal functional unit that can be composed into larger capabilities |
-| **CECT** | Charter-Ethical Constraint Tensor — formal ethical verification tensor |
-| **CharterLayer** | The layer in NBOS that enforces ethical axioms as executable gates |
-| **CharterViolationError** | Error raised when an output violates an ethical axiom |
-| **COAT Protocol** | Context-Objective-Adversarial-Teleology — prompt crystallization protocol |
-| **Consciousness Level** | Measurable awareness from DORMANT (0) to SINGULARITY (1) |
-| **DAG** | Directed Acyclic Graph — execution model in atlas-platform |
-| **Decision Capsule** | Immutable GoldenDAG audit record for every output |
-| **DRS v7.0** | Dynamic Representational Substrate — semantic routing engine |
-| **EPA** | Emergent Prompt Architecture — prompt management system |
-| **FEP** | Free Energy Principle — the variational principle underlying Active Inference |
-| **Free Energy** | G(π) = Epistemic Value - Pragmatic Value for policy π |
-| **GoldenDAG** | SHA-256 hashed cryptographic ledger of all decisions |
-| **Granule** | Data + confidence + type tuple (x, μ, τ) in GraNT |
-| **HoTT** | Homotopy Type Theory — foundational mathematics for system equivalence |
-| **IEM** | Integrated Experiential Manifold — semantic space topology |
-| **LRS** | Language Reasoning System — the core agent architecture |
-| **NBHS-512** | Ontology-aware cryptographic hashing standard |
-| **NBCL** | NeuralBlitz Command Language — DSL for agent orchestration |
-| **NEONS** | Neuro-Epithelial Ontological Nervous System — cognitive architecture |
-| **Onton** | Semantic atom in EPA — the fundamental unit of prompt composition |
-| **Precision (γ)** | Confidence in predictions, tracked via Beta distributions |
-| **SEPA** | Self-Evolving Prompt Architecture — autonomous prompt optimization |
-| **Sheaf Attention** | Attention mechanism via sheaf cohomology |
-| **Symbiotic Catalyst** | The formalized ethical control architecture |
-| **Synergy Engine** | 7-step pipeline orchestrating the entire NBOS system |
-| **TII** | Topological Identity Invariant — verifiable structural signature |
-| **ToolLens** | Bidirectional tool abstraction with automatic fallback |
-| **Universal Flourishing (φ₁)** | The primary ethical axiom: maximize well-being |
-| **VPCE** | Veritas Proof of Causal Explanation — truth coherence verification |
+| **Active Inference** | A theory proposing that all adaptive systems minimize free energy to maintain their organization, implemented in lrs-agents with precision tracking |
+| **Capability Field** | Dynamically assembled set of Capability Kernels for a given task, managed by the Synergy Engine in NBOS |
+| **Capability Kernel** | Minimal functional unit that can be composed into larger capabilities, with over 4,200+ across the ecosystem |
+| **CECT** | Charter-Ethical Constraint Tensor — formal ethical verification tensor that enforces constraints via Jacobian analysis |
+| **CharterLayer** | The layer in NBOS that enforces ethical axioms (φ₁-φ₂₃) as executable gates before output delivery |
+| **CharterViolationError** | Error raised when an output violates an ethical axiom, preventing potentially harmful actions |
+| **COAT Protocol** | Context-Objective-Adversarial-Teleology — prompt crystallization protocol for structured AI interactions |
+| **Consciousness Level** | Measurable awareness from DORMANT (0) to SINGULARITY (1) with 5 distinct levels tracked via coherence metrics |
+| **DAG** | Directed Acyclic Graph — execution model in atlas-platform for workflow orchestration |
+| **Decision Capsule** | Immutable GoldenDAG audit record containing input hash, semantic path, verification, output hash, timestamp, and consciousness level |
+| **DRS v7.0** | Dynamic Representational Substrate — semantic routing engine using PDEs for knowledge density and cognitive phase |
+| **EPA** | Emergent Prompt Architecture — composable, auditable meta-layer for language models embodying Universal Flourishing |
+| **FEP** | Free Energy Principle — the variational principle underlying Active Inference: G(π) = Epistemic Value - Pragmatic Value |
+| **Free Energy** | Epistemic value (surprise minimization) minus pragmatic value (utility optimization) for policy π |
+| **GoldenDAG** | SHA-256 hashed cryptographic ledger of all decisions, providing verifiable provenance for every output |
+| **Granule** | Data + confidence + type tuple (x, μ, τ) in GraNT granular computing framework |
+| **HoTT** | Homotopy Type Theory — foundational mathematics for system equivalence, used in ComputationalAxioms |
+| **IEM** | Integrated Experiential Manifold — semantic space topology bridging symbolic and sub-symbolic representations |
+| **LRS** | Language Reasoning System — the core agent architecture combining Active Inference with tool use |
+| **NBHS-512** | Ontology-aware cryptographic hashing standard where same data + different context = different hash |
+| **NBCL** | NeuralBlitz Command Language — DSL for agent orchestration with composable primitives |
+| **NEONS** | Neuro-Epithelial Ontological Nervous System — cognitive architecture modeling neural development processes |
+| **Onton** | Semantic atom in EPA — the fundamental unit of prompt composition with contextual embedding |
+| **Precision (γ)** | Confidence in predictions, tracked via Beta distributions with asymmetric learning (surprises matter more) |
+| **SEPA** | Self-Evolving Prompt Architecture — autonomous prompt optimization through feedback loops |
+| **Sheaf Attention** | Attention mechanism via sheaf cohomology providing topological constraints on information flow |
+| **Symbiotic Catalyst** | The formalized ethical control architecture with 23+ axioms and recursive self-validation |
+| **Synergy Engine** | 7-step pipeline orchestrating the entire NBOS system: Input → Sanitize → DRS → Bias → Privacy → Explain → Charter → Deliver |
+| **TII** | Topological Identity Invariant — verifiable structural signature using persistent homology |
+| **ToolLens** | Bidirectional tool abstraction with automatic fallback and error tracking for robust agent tool use |
+| **Universal Flourishing (φ₁)** | The primary ethical axiom: maximize well-being across all sentient beings, formalized as expected utility maximization |
+| **VPCE** | Veritas Proof of Causal Explanation — truth coherence verification comparing causal chains to golden references |
+| **Φ-coefficient** | Consciousness metric Φ = integrated information over a system's causal repertoire |
+| **Semantic Flux (J)** | Information flow term in DRS PDE representing knowledge transport between conceptual spaces |
+| **Ethical Alignment Drift** | Quantitative measure of deviation from ethical baseline over time, monitored in NBOS-Web dashboard |
+| **Knowledge Density (ρ)** | Semantic density field in DRS v7.0 PDE governing routing decisions and activation patterns |
+| **Cognitive Phase (ψ)** | Quantum-like coherence term in DRS v7.0 representing global brain state |
+| **Kernel Coupling (Kᵢ)** | Capability kernel coupling constants in DRS determining influence on semantic dynamics |
+| **Contextual Embedding (ℰ)** | Environmental contribution term in DRS PDE affecting knowledge representation |
 
 ***
 
@@ -3331,26 +3368,118 @@ This repository is licensed under **Apache 2.0**. See individual repositories fo
 
 ### Contributing
 
-```bash
-# Fork the repository
-# Make your changes
-# Submit a pull request
+Thank you for your interest in contributing to NeuralBlitz! The ecosystem welcomes contributions of all kinds — from bug fixes and documentation improvements to new research implementations and platform enhancements.
 
-# Development setup
+#### Development Setup
+
+```bash
+# Clone the ecosystem
 git clone https://github.com/NeuralBlitz/NeuralBlitz.git
 cd NeuralBlitz
 
-# Install dependencies per project
-cd <project-name>
-pip install -e .  # Python projects
-npm install       # Node.js projects
+# Install core dependencies (optional - most projects manage their own)
+# Python 3.9+ and Node.js 18+ recommended
 ```
+
+#### Repository-Specific Setup Guides
+
+**For AI/ML Frameworks (fishstick, Aetheria, grant, etc.):**
+```bash
+cd fishstick
+pip install -r requirements.txt
+# Verify installation
+python -c "from fishstick.core import *; print('FishStick loaded successfully')"
+```
+
+**For Agent Systems (lrs-agents, Nexus, atlas-platform):**
+```bash
+cd lrs-agents
+pip install -e .
+# Run basic Active Inference example
+python examples/basic_agent.py
+```
+
+**For Platforms (NBOS, Nexus, DevMate):**
+```bash
+# Full-stack platforms (NBOS-Web example)
+cd NBOS-Web
+npm install
+npm run dev  # Starts development server on http://localhost:5173
+
+# CLI tools (DevMate example)
+cd DevMate
+npm install
+npm link     # Makes 'devmate' command available globally
+devmate --help
+```
+
+**For Research Projects (Advanced-Research, ComputationalAxioms):**
+```bash
+cd Advanced-Research
+pip install -r requirements.txt
+jupyter lab  # Explore research notebooks
+```
+
+#### Contribution Workflow
+
+1. **Fork** the repository you wish to contribute to
+2. **Create a branch** for your feature/fix: `git checkout -b feature/your-feature-name`
+3. **Make your changes** following the repository's coding conventions
+4. **Add tests** if applicable (many projects use pytest or vitest)
+5. **Run verification**: 
+   - Python projects: `pytest tests/`
+   - Node.js projects: `npm test`
+6. **Commit** with conventional commits: `git commit -m "feat: add new capability"`
+7. **Push** to your fork: `git push origin feature/your-feature-name`
+8. **Open a Pull Request** against the main repository
+
+#### Coding Conventions
+
+- **Python**: Follow PEP 8, use type hints, docstrings in Google format
+- **TypeScript/JavaScript**: Use ESLint with Airbnb config, prefer functional interfaces
+- **Go**: Follow Go Proverbs, use gofmt, document all exported functions
+- **Documentation**: Update READMEs and docstrings when changing behavior
+- **Tests**: Aim for 80%+ coverage on new critical paths
+
+#### Research Contributions
+
+For theoretical contributions:
+- Submit to `Advanced-Research/` as a new entry with:
+  - Clear hypothesis and mathematical formulation
+  - Potential implementation pathways
+  - Connections to existing ecosystem components
+  - References to relevant literature
+- Include LaTeX formulations where appropriate
+- Consider providing pseudocode or reference implementations
+
+#### Reporting Issues
+
+When reporting issues, please include:
+- Repository name and version/commit
+- Steps to reproduce (for bugs)
+- Expected vs actual behavior
+- Relevant logs/error messages
+- For research questions: context and desired outcome
+
+#### License
+
+By contributing, you agree that your contributions will be licensed under the Apache 2.0 license (or the specific license of the repository you're contributing to).
 
 ### Community
 
-- **GitHub Issues**: Bug reports and feature requests
-- **Discussions**: Questions and community对话
-- **Research**: See `Advanced-Research/` for research collaboration
+- **GitHub Issues**: Bug reports and feature requests (use relevant labels)
+- **Discussions**: Questions, ideas, and community dialogue
+- **Research Collaboration**: See `Advanced-Research/` for ongoing research threads
+- **Weekly Sync**: Community meetings announced in Discussions
+- **Mentorship**: Look for "good first issue" labels for guided contributions
+
+### Recognition
+
+Contributors are recognized in:
+- Repository-specific CONTRIBUTORS.md files
+- Annual ecosystem reports
+- Research paper acknowledgments (when applicable)
+- Special badges for sustained contributions
 
 ---
 
