@@ -1,6 +1,8 @@
 
 <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/7dc9610e-0a49-49bc-8e9b-152fed67dc04" />
+
 # NeuralBlitz Ecosystem
+
 ### Unified Intelligence, Ethical AI & Glass-Box Symbiotic Computing
 
 ---
