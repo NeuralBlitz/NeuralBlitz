@@ -35,6 +35,28 @@ jobs:
           # Install the NeuralBlitz project itself in editable mode so tests can find the modules
           pip install -e .
 
+      # Verify that the built distribution includes the namespace modules.
+      - name: Check wheel contents
+        run: |
+          python -m pip wheel . --no-deps --wheel-dir /tmp/neuralblitz-wheels
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+
+          wheel = next(Path("/tmp/neuralblitz-wheels").glob("neuralblitz-*.whl"))
+          required = {
+              "core_engine/une/une_core.py",
+              "core_engine/drs_engine/drs_manager.py",
+              "interface_layer/halic/halic_core.py",
+              "subsystems/conscientia/conscientia_core.py",
+              "subsystems/sentiaguard/sentiaguard_core.py",
+          }
+          with ZipFile(wheel) as archive:
+              missing = sorted(required.difference(archive.namelist()))
+          if missing:
+              raise SystemExit(f"Missing modules in wheel: {missing}")
+          PY
+
       # Step 4: Lint the code for style issues
       # This enforces the PEP 8 style guide we defined in CONTRIBUTING.md
       - name: Lint with flake8
