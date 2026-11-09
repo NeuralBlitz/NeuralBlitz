@@ -6,7 +6,7 @@ subsystems, etc.) installable and discoverable by Python's import system.
 This is essential for running tests and for packaging the project.
 """
 
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 
 setup(
     name="neuralblitz",
