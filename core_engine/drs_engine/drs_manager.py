@@ -7,6 +7,9 @@ the context and raw material upon which the Universal Neural Engine (UNE)
 directs its focus.
 """
 
+from typing import Optional
+
+
 class DRSEngine:
     """
     Manages the storage, retrieval, and connection of knowledge concepts.
