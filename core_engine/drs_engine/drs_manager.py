@@ -46,7 +46,7 @@ class DRSEngine:
             "connections": connections or []
         }
 
-    def query(self, concept: str) -> dict | None:
+    def query(self, concept: str) -> Optional[dict]:
         """
         Retrieves the data associated with a single concept.
 
