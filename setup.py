@@ -6,14 +6,14 @@ subsystems, etc.) installable and discoverable by Python's import system.
 This is essential for running tests and for packaging the project.
 """
 
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 
 setup(
     name="neuralblitz",
     version="0.1.0",
     description="The Symbiotic Intelligence Framework",
     author="[Your Name]", # Or NuralNexus, etc.
-    packages=find_packages(),
+    packages=find_namespace_packages(include=["core_engine*", "interface_layer*", "subsystems*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",

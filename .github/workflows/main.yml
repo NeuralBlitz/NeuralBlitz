@@ -12,17 +12,17 @@ on:
 jobs:
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     # A sequence of tasks that will be executed as part of the job
     steps:
       # Step 1: Check out the repository's code
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # Step 2: Set up the Python environment
       - name: Set up Python 3.9
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.9
 
@@ -34,6 +34,28 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           # Install the NeuralBlitz project itself in editable mode so tests can find the modules
           pip install -e .
+
+      # Verify that the built distribution includes the namespace modules.
+      - name: Check wheel contents
+        run: |
+          python -m pip wheel . --no-deps --wheel-dir /tmp/neuralblitz-wheels
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+
+          wheel = next(Path("/tmp/neuralblitz-wheels").glob("neuralblitz-*.whl"))
+          required = {
+              "core_engine/une/une_core.py",
+              "core_engine/drs_engine/drs_manager.py",
+              "interface_layer/halic/halic_core.py",
+              "subsystems/conscientia/conscientia_core.py",
+              "subsystems/sentiaguard/sentiaguard_core.py",
+          }
+          with ZipFile(wheel) as archive:
+              missing = sorted(required.difference(archive.namelist()))
+          if missing:
+              raise SystemExit(f"Missing modules in wheel: {missing}")
+          PY
 
       # Step 4: Lint the code for style issues
       # This enforces the PEP 8 style guide we defined in CONTRIBUTING.md
